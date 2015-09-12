@@ -160,4 +160,14 @@
                   Used to decide if the user can change the colors -->
     <bool name="config_multiColorNotificationLed">true</bool>
 
+    <!--  Doze Mode -->
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <integer name="config_screenBrightnessDoze">10</integer>
+    <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+    <bool name="config_dreamsSupported">true</bool>
+    <bool name="config_dreamsEnabledByDefault">true</bool>
+    <bool name="config_dozeUseAccelerometer">true</bool>
+
 </resources>

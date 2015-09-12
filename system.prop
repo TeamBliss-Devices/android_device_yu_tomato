@@ -1,3 +1,6 @@
+# Model No. 
+ro.product.model=AO5510
+
 # Radio
 persist.data.target=dpm1
 persist.radio.multisim.config=dsds
